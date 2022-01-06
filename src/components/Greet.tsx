@@ -9,7 +9,7 @@ export const Greet = (props: GreetProps) => {
         <div>
             <h2>
                 {
-                    props.isLoggedIn ?  "Welcome ${props.name}! You have ${props.notification} new notifications" : "Welcome Guest"
+                    props.isLoggedIn ?  `Welcome ${props.name}! You have ${props.notification} new Notifications!` : "Welcome Guest"
                 }
             </h2>
         </div>
